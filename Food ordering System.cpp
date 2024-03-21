@@ -14,7 +14,7 @@ class variable
 class account:public variable
 {
     public:
-    int sandip()
+    int registration()
     {
       
        adarsh:
@@ -86,7 +86,7 @@ class account:public variable
                                     cout<<"----------------------------------------------"<<endl;
                                     if(more_order=='y')
                                     {
-                                       rajendra();
+                                       Menu();
                                     }
                                     else
                                     {
@@ -94,11 +94,11 @@ class account:public variable
                                     }
                                     return 0;
         }
-    int rajendra()
+    int Menu()
     {
         cout<<"1.Fast food:"<<endl;
         cout<<"2.Veg food:"<<endl;
-        cout<<"3.Non-veg food:"<<endl;https://www.onlinegdb.com/online_c_compiler#tab-stdin
+        cout<<"3.Non-veg food:"<<endl;
         cout<<"Choice from above:"<<endl;
         cin>>a;
         trise++;
@@ -457,7 +457,7 @@ class bill:public menu
           cout<<"1.customer name = sandip gupta"<<endl;
           cout<<"2.Customer place = Indore"<<endl;
       }
-      cout<<" 1.You have ordered" <<trise<<" food"<<endl;
+      cout<<" 1.You have ordered " <<trise<<" food"<<endl;
       cout<<" 2.Total bill = "<< sum <<endl;
       cout<<"                                          ********************************Make your payment********************************"<<endl;
     cout<<"Choose any:"<<endl;
@@ -497,8 +497,8 @@ class bill:public menu
 int main()
 {
  bill obj;
- obj.sandip();
- obj.rajendra();
+ obj.registration();
+ obj.Menu();
  obj.result();
  
  
